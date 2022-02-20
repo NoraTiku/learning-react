@@ -1,6 +1,8 @@
-const Greetings = () => {
+const Greetings = (props) => {
     return (
-      <h2>Hello There!!!</h2>
+      <h2>
+        Hello {props.name}!!!
+      </h2>
   
   
     );

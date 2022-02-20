@@ -8,8 +8,9 @@ const App = () => {
     <>
   <h1>React app working!!!</h1>
   <h1>These two lines are examples of react fragment in JSX</h1>
-  <Greetings />
-  <Greetings />
+  <Greetings  name = 'Joe' />
+  <Greetings name = 'Marry' />
+  <Greetings name = 'Jacky' />
 
   </>
   );
