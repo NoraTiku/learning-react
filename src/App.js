@@ -4,8 +4,17 @@ import Greetings from './Greetings';
 
 
 const App = () => {
+
+  const styles = {
+    container: {
+      padding: 30,
+      backgroundColor: 'pink'
+    }
+  };
   return (
-    <>
+    <div style={styles.container}>
+      
+
   <h1>React app working!!!</h1>
   <h1>These two lines are examples of react fragment in JSX</h1>
   <Greetings  
@@ -16,7 +25,7 @@ const App = () => {
   <Greetings 
      name = 'Marry' 
      favoriteNumber= {25}
-     favoriteColors={["Green", "pink", "red"]}
+     favoriteColors={["Green", "pink", "red", "red"]}
   
   />
 
@@ -25,7 +34,7 @@ const App = () => {
      favoriteNumber= {30}
   />
 
-  </>
+  </div>
   );
 }
 
